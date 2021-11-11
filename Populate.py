@@ -19,11 +19,9 @@ rows = [
     (None,None,random.randint(1,100),random.randint(1,100)),
 ]
   
-
 # writes data for the rows above
 for row in rows:
     sheet.append(row)
 
-
 # saves file
-workbook.save(filename="hello.xlsx")
+workbook.save(filename="test.xlsx")
